@@ -3,6 +3,8 @@ Grunt Polymer workflow
 
 If you want to start using Google Polymer without having to deal with more files to import this is the project you have to start with.
 
+![Grunt Polymer Workflow](https://copy.com/avrfzxMfIaAEKSBH)
+
 ## Usage
 ```shell
 $ git clone https://github.com/michaelgenesini/grunt-polymer-workflow.git
