@@ -1,0 +1,18 @@
+polymer-element(name="my-counter",attributes="counter")
+  template
+    link(href='../../assets/stylesheet/stones.css', rel='stylesheet')
+    div#label
+      content
+      | Value:
+      span#counterVal {{counter}}
+    button.button(on-tap="{{increment}}") Increment
+  script.
+    Polymer({
+      counter: 0, // Default value
+      counterChanged: function() {
+        this.$.counterVal.classList.add('highlight');
+      },
+      increment: function() {
+        this.counter++;
+      }
+    });

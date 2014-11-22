@@ -1,0 +1,19 @@
+{
+  "name": "Grunt-Polymer-Workflow",
+  "version": "0.1.0",
+  "authors": [
+    "Michael <michael.genesini@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1"
+  }
+}
